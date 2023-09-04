@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'miFuente';
+    src: url('Bauhaus.ttf');
+    }
+
+    p{
+        font:bold 32px 'miFuente';
+        color: brown;
+        }
