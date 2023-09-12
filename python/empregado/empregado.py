@@ -85,6 +85,17 @@ class Efetivo(Empregado):
                 return self._salarioBase + (self._salarioBase * 0.08)
             else: 
                 return self._salarioBase
+
+class Terceirizado(Empregado):
+    def __init__(self, nome, salario, fone, responsavel):
+        super().__init__(nome, salario, fone)
+        self._responsavel = responsavel
+
+    def set_responsavel(self, responsavel):
+        self._responsavel = responsavel
+    
+    def get_responsavel(self):
+        return self._responsavel
         
     
     
