@@ -22,3 +22,4 @@ class Empregado:
     def get_fone(self):
         return self._fone
     
+    
