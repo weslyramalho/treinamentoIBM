@@ -1,0 +1,3 @@
+
+administrador = Usuario()
+administrador.imprimeUsuario()
