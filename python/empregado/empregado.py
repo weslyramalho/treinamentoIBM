@@ -1,8 +1,8 @@
 class Empregado:
     def __init__(self, nome, salario, fone):
-        self.nome = nome
-        self.salario = salario
-        self.fone = fone
+        self._nome = nome
+        self._salario = salario
+        self._fone = fone
     
     def set_nome(self, nome):
         self._nome = nome
